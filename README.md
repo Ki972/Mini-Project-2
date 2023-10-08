@@ -1,5 +1,4 @@
-# Mini-Project-2
-Investigate Business Hotel using Data Visualization
+# Mini-Project-2: Investigate Business Hotel using Data Visualization
 ## Latar Belakang
 Analisis performa bisnis dalam industri perhotelan memiliki peran yang krusial dalam pengambilan keputusan yang lebih baik dan strategi pemasaran yang lebih efektif. Dalam konteks ini, kita akan mengeksplorasi perilaku pelanggan yang melakukan pemesanan hotel, serta dampaknya terhadap tingkat pembatalan pemesanan hotel. Hasil analisis ini akan disajikan dalam bentuk visualisasi data untuk memberikan pemahaman yang lebih baik dan persuasif.
 ## Alat
