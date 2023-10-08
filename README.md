@@ -1,6 +1,6 @@
 # Mini-Project-2: Investigate Business Hotel using Data Visualization
 ## Latar Belakang
-Analisis performa bisnis dalam industri perhotelan memiliki peran yang krusial dalam pengambilan keputusan yang lebih baik dan strategi pemasaran yang lebih efektif. Dalam konteks ini, kita akan mengeksplorasi perilaku pelanggan yang melakukan pemesanan hotel, serta dampaknya terhadap tingkat pembatalan pemesanan hotel. Hasil analisis ini akan disajikan dalam bentuk visualisasi data untuk memberikan pemahaman yang lebih baik dan persuasif.
+Analisis performa bisnis dalam industri perhotelan memiliki peran yang krusial dalam pengambilan keputusan yang lebih baik dan strategi pemasaran yang lebih efektif. Dalam konteks ini, Saya akan mengeksplorasi perilaku pelanggan yang melakukan pemesanan hotel, serta dampaknya terhadap tingkat pembatalan pemesanan hotel. Hasil analisis ini akan disajikan dalam bentuk visualisasi data untuk memberikan pemahaman yang lebih baik dan persuasif.
 ## Alat
 Untuk melakukan analisis ini, Saya menggunakan bahasa pemrograman Python dan beberapa perpustakaan seperti pandas, matplotlib, dan seaborn. Alat yang digunakan yaitu **Google Colaboratory**
 ## Isi
@@ -12,13 +12,13 @@ Baris duplikat dihapus menggunakan fungsi `drop_duplicates()` untuk menghindari 
 Nilai null diisi dengan nilai yang sesuai, seperti mengisi kolom "company" dan "agent" dengan 0, kolom "children" dengan 0 (kemungkinan sebagian besar tamu tidak memiliki anak), dan kolom "city" dengan "unknown."
 
 - **Invalid Values**
-Nilai "Undefined" pada kolom "meal" diganti dengan "No Meal."
+Nilai "Undefined" pada kolom "meal" diganti dengan "No Meal".
 
 - **Drop Unnecessary Data** 
 Data yang tidak relevan atau tidak informatif dihapus, termasuk data dengan jumlah tamu dan durasi tinggal 0.
 
 - **Change Data Types**
-Beberapa kolom yang seharusnya memiliki tipe data integer diubah dari float64 menjadi int64.
+Melakukan perubahan tipe data pada kolom “children”, “agent”, dan “company” karena kolom-kolom tersebut mewakili angka diskrit dan harus memiliki tipe data integer untuk melakukan analisis lebih lanjut.
 ### Analisis Data
 #### Monthly Hotel Booking Analysis Based on Hotel Type
 Grafik menunjukkan perubahan rata-rata total pemesanan hotel setiap bulan untuk dua jenis hotel yang berbeda.
