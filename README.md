@@ -5,19 +5,19 @@ Analisis performa bisnis dalam industri perhotelan memiliki peran yang krusial d
 Untuk melakukan analisis ini, Saya menggunakan bahasa pemrograman Python dan beberapa perpustakaan seperti pandas, matplotlib, dan seaborn. Alat yang digunakan yaitu **Google Colaboratory**
 ## Isi
 ### Data Preprocessing
-- **Duplicate Data**
+- **Duplicate Data :**
 Baris duplikat dihapus menggunakan fungsi `drop_duplicates()` untuk menghindari bias dalam analisis.
 
-- **Missing Values**
+- **Missing Values :**
 Nilai null diisi dengan nilai yang sesuai, seperti mengisi kolom "company" dan "agent" dengan 0, kolom "children" dengan 0 (kemungkinan sebagian besar tamu tidak memiliki anak), dan kolom "city" dengan "unknown."
 
-- **Invalid Values**
+- **Invalid Values :**
 Nilai "Undefined" pada kolom "meal" diganti dengan "No Meal".
 
-- **Drop Unnecessary Data** 
+- **Drop Unnecessary Data :** 
 Data yang tidak relevan atau tidak informatif dihapus, termasuk data dengan jumlah tamu dan durasi tinggal 0.
 
-- **Change Data Types**
+- **Change Data Types :**
 Melakukan perubahan tipe data pada kolom “children”, “agent”, dan “company” karena kolom-kolom tersebut mewakili angka diskrit dan harus memiliki tipe data integer untuk melakukan analisis lebih lanjut.
 ### Analisis Data
 #### Monthly Hotel Booking Analysis Based on Hotel Type
